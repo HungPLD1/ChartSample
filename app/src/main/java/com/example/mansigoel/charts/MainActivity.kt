@@ -81,6 +81,8 @@ class MainActivity : AppCompatActivity() {
         lineChart.axisRight.isEnabled = false
         lineChart.axisLeft.enableGridDashedLine(5f, 5f, 0f)
         lineChart.axisLeft.addLimitLine(ll2)
+        lineChart.axisLeft.axisMinimum = 0F
+        lineChart.axisLeft.axisMaximum = 500F
         //lineChart.setDrawGridBackground()
         lineChart.xAxis.labelCount = 11
         lineChart.xAxis.position = XAxis.XAxisPosition.BOTTOM
